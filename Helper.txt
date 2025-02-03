@@ -1,2 +1,14 @@
 ipykernel - Allows to associate our virtual environment with our jupyter notebook.
-installing the virtual environment into jupyter 
+python -m ipykernel install --user --name=tfodj (telling the name of the virtual name to the jupyter) = installing the virtual environment into jupyter 
+
+For labeling images, Library called labelImg has been used. (https://github.com/HumanSignal/labelImg)
+
+uuid = Universally unique identifiers used for generating unique ids for databases, creating session tokens
+for authentication, etc. , allowing to name images uniquely to stop any collisions
+
+os - operating systems
+
+Opencv = open computer vision, for accessing webcam and collecting images
+
+
+
