@@ -1,0 +1,2 @@
+ipykernel - Allows to associate our virtual environment with our jupyter notebook.
+installing the virtual environment into jupyter 
