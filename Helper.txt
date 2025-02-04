@@ -10,5 +10,19 @@ os - operating systems
 
 Opencv = open computer vision, for accessing webcam and collecting images
 
+When running evaluation = you get precision and MAP
+MAP:- Mean average precision (What propotion of the calculation was correct)
+MAP = No. of true positive detections/False positives
+TP:- Detects correct
+FP:- When detects something even though there is nothing there
+TN:- When not detected anything and there is nothing
+FN:- Does not detects when there is something 
 
+Precision = TP/ (TP + FP)
+Recall: TP/(TP + FN)
 
+Loss:- A method to evaluate how well the model is performing against the data provided.
+
+Tensorflow model zoo:- https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/tf2_detection_zoo.md
+Using diff models is going to result in diff levels of accuracy and speed.
+Model used:- SSD Mobile V2 FPNLite 320x320 (320 is basically the model compressing the images down in the preprocessing step and in post processing will convert it back to original)
